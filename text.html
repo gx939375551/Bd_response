@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Trontsitional//EN" "http://www.w3c.org/TR/xhtml//DTD//xhtml1-tronsitional.dtd">
+<html>
+
+<head>
+<!--加入BS中移动设备优先 meta标签自动获取 1：1-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="text.css">
+    <!--虽然引入了BS的CSS样式表，但是考虑到应该将移动端的CSS样式表单独创建所以自己写了媒体查询并且引入css文件，这样方便日后对于双端CSS样式表的单独维护和管理！考虑到要使用BS中的栅格系统所以将最大宽度设置为768px！这样能更好的兼容到BS手机端的XS栅格系统！！-->
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="mobile.css">
+</head>
+
+<body>
+    <!--pc端的Html文档-->
+    <!--页面的导航栏-->
+    <div class="contianer-self hidden-xs">
+        <div class="nav_1">
+        <a href="#">更多产品</a>
+        <div class="pbox pbox-3">
+            </div>
+        </div>
+        <div class="down">
+            <a href="#">设置</a>
+            <div class="pbox pbox-2">
+                <a href="#">
+                    <p>搜索设置</p>
+                </a>
+                <a href="#">
+                    <p>高级搜索</p>
+                </a>
+                <a href="#">
+                    <p>关闭预测</p>
+                </a>
+                <a href="#">
+                    <p>搜索历史</p>
+                </a>
+            </div>
+        </div>
+        <div class="down">
+            <a href="#">郭鑫</a>
+            <div class="pbox">
+                <a href="#">
+                    <p>我的vip</p>
+                </a>
+                <a href="#">
+                    <p>个人中心</p>
+                </a>
+                <a href="#">
+                    <p>账号设置</p>
+                </a>
+                <a href="#">
+                    <p>意见反馈</p>
+                </a>
+                <a href="#">
+                    <p>退出</p>
+                </a>
+            </div>
+        </div>
+        <div class="nav-self">
+            <a href="#"><strong>贴吧</strong></a>
+        </div>
+        <div class="nav-self"><a href="#"><strong>视频</strong></a></div>
+        <div class="nav-self"><a href="#"><strong>地图</strong></a></div>
+        <div class="nav-self"><a href="#">hao123</a></div>
+        <div class="nav-self"><a href="#"><strong>新闻</strong></a></div>
+    </div>
+    <!--页面的中心内容-->
+    <div class="clear"></div>
+    <div class="center-self hidden-xs">
+        <div class="i">
+            <img src="bdlogo.png" alt="百度" width="270" height="129">
+        </div>
+        <div class="fr">
+            <form>
+                <input class="fr_input" type="text" autofocus="autofocus">
+                <input class="b_1" type="button" value="百度一下">
+            </form>
+        </div>
+    </div>
+    <!--页面的脚部-->
+    <div class="footer-self hidden-xs">
+        <ul>
+            <li><a class="footer-self-a" href="http://www.baidu.com/cache/sethelp/index.html">设为首页</a></li>
+            <li><span>&copy;2015 Baidu</span></li>
+            <li><a class="footer-self-a" href="https://www.baidu.com/duty/">使用百度前必读</a></li>
+            <li><a class="footer-self-a" href="http://jianyi.baidu.com/">意见反馈</a></li>
+            <li><span>京ICP证030173号</span></li>
+        </ul>
+    </div>
+    <!--pc端Html文档-->
+    <!--移动端Html文档-->
+    <!--这里使用BS的栅格系统进行布局！可以灵活布局！同时加入BS的响应式工具可以让页面在非手机尺寸的页面时隐藏手机端的内容！-->
+    <div class="clear"></div>
+    <div class="container">
+        <!--移动端的userlogo-->
+        <div class="row">
+            <div class="col-xs-12  visible-xs-block mobile-col-1">
+                <a href="#"><img class="pull-right mobile-userimg" src="img/user.png" /></a>
+            </div>
+        </div>
+        <!--移动端的网站logo和搜索框-->
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 visible-xs-block mobile-col-2">
+                <img class="center-block mobile-bdlogo" src="bdlogo.png" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 visible-xs-inline-block mobile-col-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><a href="#">百度一下</a></span>
+                </div>
+            </div>
+        </div>
+        <!--移动端的nav-->
+        <div class="row">
+            <div class="col-xs-2 mobile-col-4 visible-xs-block">
+                <a href="#"><img class="center-block" src="img/artice.png" /></a>
+                <p class="text-center">新闻</p>
+            </div>
+            <div class="col-xs-2 mobile-col-4  visible-xs-block">
+                <a href="#"><img class="center-block" src="img/book.png" /></a>
+                <p class="text-center">小说</p>
+            </div>
+            <div class="col-xs-2 mobile-col-4  visible-xs-block">
+                <a href="#"><img class="center-block" src="img/video.png" /></a>
+                <p class="text-center">视频</p>
+            </div>
+            <div class="col-xs-2 mobile-col-4  visible-xs-block">
+                <a href="#"><img class="center-block" src="img/life.png" /></a>
+                <p class="text-center">生活</p>
+            </div>
+            <div class="col-xs-2 mobile-col-4  visible-xs-block">
+                <a href="#"><img class="center-block" src="img/map.png" /></a>
+                <p class="text-center">地图</p>
+            </div>
+            <div class="col-xs-2 mobile-col-4  visible-xs-block">
+                <a href="#"><img class="center-block" src="img/down.png" /></a>
+                <p class="text-center">更多</p>
+            </div>
+        </div>
+        <!--移动端的实时热点-->
+        <div class="row">
+            <div class="col-xs-11  mobile-col-5 visible-xs-block">
+                <img class="pull-left mobile-col-5-img1" src="img/artice.png" />
+                <h5 class="pull-left mobile-col-5-h5-1">实时热点</h5>
+                <a href="#"><img class="pull-right mobile-col-5-img2" src="img/menu.png" /></a>
+                <a href="#"><h5 class="pull-right mobile-col-5-h5-2">换一批</h5></a>
+                <a href="#"><img class="pull-right mobile-col-5-img3" src="img/refresh.png" /></a>
+                <p class="clear mobile-col-5-p1"><a href="#">彭于晏谈姐弟恋</a></p>
+                <p class="pull-right mobile-col-5-p3"><a href="#">奶茶妹挺大肚外出</a></p>
+                <p class="mobile-col-5-p2 clear"><a href="#">吴奇隆45岁生日</a></p>
+                <p class="pull-right mobile-col-5-p4"><a href="#">极速KO获奖百万</a></p>
+                <p class="mobile-col-5-p2 clear"><a href="#">幻想男友被绑架</a></p>
+                <p class="pull-right mobile-col-5-p5"><a href="#">老鼠鸽子当街对决</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-11 visible-xs-block mobile-col-6">
+                <a href="#"><img class="pull-right mobile-col-6-img" src="img/blueright.png" /></a>
+                <h5 class="pull-right mobile-col-6-h5"><a href="#">百度风云榜</a></h5>
+            </div>
+        </div>
+        <!--移动端的常用网址块-->
+        <div class="row">
+            <div class="col-xs-11 visible-xs-block mobile-col-7">
+                <img class="mobile-col-7-img1 pull-left" src="img/earth.png" />
+                <h5 class="pull-left mobile-col-5-h5-1">常用网址</h5>
+                <a href="#"><img class="pull-right mobile-col-5-img2" src="img/menu.png" /></a>
+                <div class="row clear">
+                    <div class="col-xs-3">
+                        <p><a class="mobile-col-7-a" href="#">贴吧</a></p>
+                    </div>
+                    <div class="col-xs-3">
+                        <p><a href="#" class="mobile-col-7-a">hao123</a></p>
+                    </div>
+                    <div class="col-xs-3">
+                        <p><a href="#" class="mobile-col-7-a">地图</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <p><a href="#" class="mobile-col-7-a">百度VIP</a></p>
+                    </div>
+                </div>
+                <div class="row clear">
+                    <div class="col-xs-3">
+                        <p><a class="mobile-col-7-a" href="#">图片</a></p>
+                    </div>
+                    <div class="col-xs-3">
+                        <p><a href="#" class="mobile-col-7-a">音乐</a></p>
+                    </div>
+                    <div class="col-xs-3">
+                        <p><a href="#" class="mobile-col-7-a">糯米</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <button class="mobile-col-7-btn"><img src="img/plus.png"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--移动端的生活服务块-->
+        <div class="row">
+            <div class="col-xs-11 visible-xs-block mobile-col-8">
+                <img class="mobile-col-7-img1 pull-left" src="img/map.png">
+                <h5 class="pull-left mobile-col-5-h5-1">生活服务</h5>
+                <a href="#"><img class="pull-right mobile-col-5-img2" src="img/menu.png" /></a>
+                <p class="clear mobile-col-5-p1">点击定位，查看附近位置信息</p>
+                <button class="mobile-col-8-btn pull-right" type="submit"><img class="mobile-col-8-img" src="img/define.png">定位</button>
+            </div>
+        </div>
+        <!--移动端的底部网站信息-->
+        <div class="row">
+            <div class="col-xs-12 visible-xs-block">
+                <p class="text-center footer-p">使用百度前必读 Baidu 京ICP证030173号</p>
+            </div>
+        </div>
+</body>
+
+</html>

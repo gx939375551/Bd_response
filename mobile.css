@@ -1,0 +1,188 @@
+/*所有布局均使用了栅格系统！所以从上到下是内容顺序的样式定义！*/
+
+
+/*全局清除样式*/
+
+.clear {
+    clear: both;
+}
+
+.mobile-col-1 {
+    height: 40px;
+}
+
+.mobile-userimg {
+    margin-top: 10px;
+}
+
+.mobile-col-2 {
+    height: 90px;
+}
+/*百度LOGO*/
+.mobile-bdlogo {
+    width: 175px;
+    height: 80px;
+    margin-top: 5px;
+}
+/*搜索框块的样式*/
+.mobile-col-3 {
+    height: 60px;
+}
+
+.form-control {
+    border-radius: 0;
+    height: 40px;
+}
+
+.input-group-addon {
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.input-group-addon a {
+    color: #000000;
+}
+
+.input-group-addon a:hover {
+    text-decoration: none;
+}
+
+.mobile-col-4 {
+    height: 80px;
+}
+
+
+/*实时热点*/
+
+.mobile-col-5 {
+    border: 1px solid #dedede;
+    margin-left: 15px;
+    height: 200px;
+}
+
+.mobile-col-5-img1 {
+    margin-top: 10px;
+}
+
+.mobile-col-5-h5-1 {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #b2b2b2;
+}
+
+.mobile-col-5-img2 {
+    margin-top: 10px;
+}
+
+.mobile-col-5-h5-2 {
+    margin-top: 15px;
+    margin-right: 50px;
+    color: #000000;
+}
+
+.mobile-col-5-img3 {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.mobile-col-5-p1 {
+    padding-top: 10px;
+}
+
+.mobile-col-5-p1 a {
+    color: #000000;
+}
+
+.mobile-col-5-p2 {
+    padding-top: 20px;
+}
+
+.mobile-col-5-p2 a {
+    color: #000000;
+}
+
+.mobile-col-5-p3 {
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+.mobile-col-5-p3 a {
+    color: #000000;
+}
+
+.mobile-col-5-p4 {
+    margin-top: -30px;
+    margin-right: 30px;
+}
+
+.mobile-col-5-p4 a {
+    color: #000000;
+}
+
+.mobile-col-5-p5 {
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+.mobile-col-5-p5 a {
+    color: #000000;
+}
+/*百度风云榜块的样式块*/
+.mobile-col-6 {
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    height: 40px;
+    margin-left: 15px;
+}
+.mobile-col-6-img{
+	margin-top: 10px;
+}
+.mobile-col-6-h5{
+	margin-top: 14px;
+	margin-right: 20px;
+}
+/*常用网站块的样式*/
+.mobile-col-7 {
+    border: 1px solid #dedede;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.mobile-col-7-img1{
+	margin-top: 10px;
+}
+.mobile-col-7-a{
+	color: #000000;
+}
+
+.mobile-col-7-btn{
+    margin-left: 10px;
+    border: none;
+    background-color: #ffffff;
+}
+/*生活服务块的样式*/
+.mobile-col-8 {
+    border: 1px solid #dedede;
+    height: 250px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.mobile-col-8-btn{
+	border: 1px solid #a6a6a6;
+	margin-top: -35px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #ffffff;
+}
+.mobile-col-8-img{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.footer-p {
+    margin-top: 10px;
+    color: #b2b2b2;
+}

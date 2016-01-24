@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: #797979;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*导航条的CSS样式*/
+
+.contianer-self {
+    margin-right: 10px;
+}
+
+.nav-self,
+.down,
+.nav_1 {
+    display: block;
+    float: right;
+    width: 50px;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+.down a:hover{
+    text-decoration: none;
+}
+
+.nav_1 {
+    width: 65px;
+    height: 23px;
+    padding-top: 2px;
+    line-height: 20px;
+    background-color: #0e8de6;
+    margin-top: 7px;
+    font-size: 14px;
+
+}
+
+.nav_1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-self a {
+    color: #000000;
+}
+
+.down a {
+    color: #000000;
+}
+
+.nav-self a:hover {
+    color: #0c6cef;
+}
+
+.pbox {
+    border: 1px solid #d5d4d4;
+    box-shadow: 2px 2px 2px #d5d4d4;
+    line-height: 2px;
+    width: 60px;
+    height: 185px;
+    display: none;
+    font-size: 12px;
+}
+/*重写设置下拉菜单的高度*/
+.pbox-2{
+    height:150px; 
+}
+.pbox-3{
+    width: 65px;
+    height: 720px;
+}
+.pbox a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pbox a p{
+    display: block;
+    margin-top: 5px;
+}
+.pbox a:hover{
+    color: #ffffff;
+    display: block;
+    background-color: #0c6cef;
+}
+.down:hover .pbox {
+    display: block;
+}
+.nav_1:hover .pbox{
+    display: block;
+}
+
+/*中心内容的样式*/
+
+.center-self {
+    margin-top: 60px;
+}
+
+.i {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fr {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.fr_input {
+    border: 1px solid #d5d4d4;
+    display: inline-block;
+    outline: none;
+    width: 537px;
+    height: 40px;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+
+/*鼠标悬停时搜索框边框加深*/
+
+.fr_input:hover {
+    border: 1px solid #b4b4b4;
+}
+
+
+/*页面加载完成后搜索框自动对焦*/
+
+.fr_input:focus {
+    border: 1px solid #0c6cef;
+}
+
+.b_1 {
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: #0e8de6;
+    vertical-align: middle;
+    color: #ffffff;
+    margin-left: -5px;
+}
+
+.b_1:hover{
+    background-color: #0c6cef;
+}
+/*脚部的样式*/
+
+.footer-self {
+    margin-top: 350px;
+    margin-left: 36%;
+}
+
+.footer-self ul li {
+    display: inline;
+    font-size: 12px;
+}
+
+.footer-self-a {
+    color: #000000;
+}
+
+.footer-self-a:hover {
+    color: #000000;
+}
